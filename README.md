@@ -5,9 +5,9 @@ operations as implemented by the linux-rsi kernel module
 [here](https://github.com/islet-project/islet/tree/main/realm/linux-rsi), as
 well as generic functions to parse/verify/print RSI attestation tokens.
 
-It has initially been implemeneted as part of [rsictl](../../tools/rsictl) tool
-but as more applications needed similar functionality it has been split into
-this library.
+It has initially been implemeneted as part of
+[rsictl](https://github.com/islet-project/rsictl) tool but as more applications
+needed similar functionality it has been split into this library.
 
 # Content
 
@@ -27,9 +27,9 @@ The library contains following functionalities:
 
 The library is currently used by the following applications:
 
-  * [rsictl](../../tools/rsictl): command line tool for performing RSI
+  * [rsictl](https://github.com/islet-project/rsictl): command line tool for performing RSI
     operations
-  * [ratls](../ratls): library implementing RaTLS protocol
-  * [realm-verifier](../realm-verifier): a realm verifier library for RaTLS
+  * [ratls](https://github.com/islet-project/ratls): library implementing RaTLS protocol
+  * [realm-verifier](https://github.com/islet-project/realm-verifier): a realm verifier library for RaTLS
   * [realm-manager](https://github.com/islet-project/realm-manager): application
     provisioning framework
