@@ -9,7 +9,7 @@ description = "ioctls and some initial handling of ARM CCA RSI API"
 
 [dependencies]
 hex = "*"
-nix = { version = "*", features = ["fs", "ioctl"] }
+nix = { version = "0.26.2", features = ["fs", "ioctl"] }
 ciborium = "*"
 coset = "*"
 p256 = "*"
